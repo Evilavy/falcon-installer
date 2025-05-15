@@ -6,7 +6,7 @@ DOWNLOAD_PATH="$HOME/Downloads/FalconSensor.pkg"
 
 # Télécharger depuis Synology (lien direct)
 echo "Téléchargement du package Falcon depuis le NAS Synology..."
-curl -L -o "$DOWNLOAD_PATH" "https://storage.mobiapps.fr:5001/fsdownload/GT0Ad91AI/FalconSensor.pkg"
+curl -L -o "$DOWNLOAD_PATH" "https://github.com/Evilavy/falcon-installer/raw/main/FalconSensor.pkg"
 
 echo "Téléchargement terminé : $(ls -lh "$DOWNLOAD_PATH")"
 echo ""
