@@ -4,8 +4,8 @@ set -e  # Stop on error
 
 DOWNLOAD_PATH="$HOME/Downloads/FalconSensor.pkg"
 
-# Télécharger depuis Synology (lien direct)
-echo "Téléchargement du package Falcon depuis le NAS Synology..."
+# Télécharger depuis GitHub (lien direct)
+echo "Téléchargement du package Falcon depuis GitHub..."
 curl -L -o "$DOWNLOAD_PATH" "https://github.com/Evilavy/falcon-installer/raw/main/FalconSensor.pkg"
 
 echo "Téléchargement terminé : $(ls -lh "$DOWNLOAD_PATH")"
